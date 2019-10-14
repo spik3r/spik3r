@@ -51,8 +51,8 @@ h6 {
     background-size: 60px 60px;
 }
 .web {
-    background: url(../img/angular.svg) no-repeat center center;
-    background-size: 60px 60px;
+    background: url(../img/react.png) no-repeat center center;
+    background-size: 128px 90px;
 }
 .misc {
     background: url(../img/tux.svg) no-repeat center center;
@@ -65,10 +65,14 @@ h6 {
     list-style-type: none;
     text-align: center;
 }
+ .list-left {
+     text-align: left;
+     list-style-type: circle;
+ }
 
 .intro-header h1, h3, h4 {
-    color: white;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.9);
+    color: black;
+    text-shadow: 2px 2px 3px rgba(0,0,0,0.3);
 }
 .intro-message {
     position: relative;
